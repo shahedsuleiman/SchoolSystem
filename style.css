@@ -63,12 +63,12 @@ table th,td{
 
 
 .bg-footer {
-    background-color:rgb(92, 40, 40);
+    background-color:rgb(255, 255, 255);
     padding: 3px 0 20px;
 }
 
 .footer-alt {
-    color: #ffffff9c;
+    color: rgb(92, 40, 40);
 }
 
 

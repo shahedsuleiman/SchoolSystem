@@ -1,5 +1,6 @@
 function getInput(event){
     event.preventDefault();
+
     let name = document.getElementById("fullname").value;
     let bd = document.getElementById("bd").value;
     let gender = getGender();
@@ -45,4 +46,4 @@ function getGender()
     }
     return "";			
 }
-document.getElementById("table").addEventListener("submit", getInput);
+// document.getElementById("table").addEventListener("submit", getInput);

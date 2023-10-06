@@ -1,0 +1,76 @@
+body {
+    background: url(images/school.jpg) fixed ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.headder {
+    font-family:"Playfair Display";
+	font-size:35px;
+	color:rgb(0, 0, 0);
+	cursor:pointer;
+}
+form {
+	margin:3% auto 3% auto;
+	padding:30px;
+	width:550px;
+	height:500;
+	overflow:hidden;
+	background:rgb(92, 40, 40);
+
+}
+form label {
+    font-weight:900;
+    font-family:"Playfair Display";
+	font-size:20px;
+	color:rgb(217, 217, 217);
+	cursor:pointer;
+}
+
+
+form input {
+	margin:10px 0;
+	padding:8px 8px;
+	width:100%;
+	outline:none;
+	border:1px solid #bbb;
+	border-radius:20px;
+    box-sizing:border-box;
+
+}
+.btnstyle{
+    background-color: #ffffff;
+    border: none;
+    font-family:"Playfair Display";
+    color: rgb(92, 40, 40);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+table th,td{
+    background-color: white;
+	color:black;
+	text-align:center;
+    border: 2px solid;
+}
+
+
+
+
+
+.bg-footer {
+    background-color:rgb(92, 40, 40);
+    padding: 3px 0 20px;
+}
+
+.footer-alt {
+    color: #ffffff9c;
+}
+
+
+
+    

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>School System</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="style.css" >
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height:80px">
+            <a class="navbar-brand headder" href="#">School System</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav " style="font-family:PlayFair Display;">
+                <a class="nav-item nav-link my-2 my-sm-0" href="#">Home</a>
+                <a class="nav-item nav-link" href="#">About</a>
+              </div>
+            </div>
+          </nav>
+            <form >
+                <div>
+                    <label>Full Name </label><br>
+                    <input type="text" id="fullname" /><br>
+                </div>
+                <div>
+                    <label>Date Of Birth</label><br>
+                    <input type="date" id="bd" value="2001-10-10" /><br>
+                </div>
+                <div class="sp-item">
+                    <label>Gender</label><br>
+                    <label for="female" style="font-size:15px;font-weight:lighter;">
+                         <input type = "radio" name="gender" id="female" class="gender-radio" />Female<br>
+                    </label>
+                    <label for="male"style="font-size:15px;font-weight:lighter;">
+                          <input type = "radio" name="gender" id="male" class="gender-radio" />Male<br>
+                    </label>
+                    
+                </div>
+                <div>
+                    <label>Phone Number</label><br>
+                    <input type="tel" id="phone" name="phone" ><br>
+                    <small id="phone_alert"></small>
+                    
+                </div>
+                <div>
+                    <label>Grade </label><br>
+                    <select id="grade" style="width:100%">
+                        <option>Excellent</option>
+                        <option>Very Good</option>
+                        <option>Good</option>
+                        <option>Average</option>
+                    </select><br>
+                </div><br>
+                <div>
+
+                    <button type="submit" class="btnstyle"  onclick="getInput(event);" >Submit</button>
+                    
+                </div>
+            </form>
+            <table class="table table-bordered" id="table" >
+				<thead>
+					<tr >
+						<th class="text-center">Full Name</th>
+						<th class="text-center">Date-of-Birth</th>
+						<th class="text-center">Gender</th>
+						<th class="text-center">Phone Number</th>
+						<th class="text-center">Grade</th>	
+					</tr>
+				</thead>
+                <tbody id="table-body"></tbody>
+		</table>
+
+    
+            <footer class="section bg-footer">
+                <div class="text-center mt-5">
+                    <p class="footer-alt mb-0 f-14">2023- School System ©  All Rights Reserved</p>
+                </div>
+            </footer>
+
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>

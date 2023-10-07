@@ -48,21 +48,25 @@
                     
                 </div>
                 <div>
-                    <label>Grade </label><br>
-                    <select id="grade" style="width:100%">
-                        <option>Excellent</option>
-                        <option>Very Good</option>
-                        <option>Good</option>
-                        <option>Average</option>
+                    <label>Major </label><br>
+                    <select id="major" style="width:100%">
+                        <option>Adminstrator</option>
+                        <option>IT</option>
+                        <option>Science</option>
+                        <option>Art</option>
                     </select><br>
                 </div><br>
                 <div>
+                    <div>
+                        <label for="imageUrl">Image URL:</label>
+                        <input type="url" id="imageUrl" name="imageUrl" required>
+                    </div>
 
-                    <button type="submit" class="btnstyle"  onclick="getInput();" >Submit</button>
+                    <button type="submit" class="btnstyle"  onclick="getInput(event);" >Submit</button>
                     
                 </div>
             </form>
-            <table class="table table-bordered" id="table" >
+            <!-- <table class="table table-bordered" id="table" >
 				<thead>
 					<tr >
 						<th class="text-center">Full Name</th>
@@ -73,7 +77,10 @@
 					</tr>
 				</thead>
                 <tbody id="table-body"></tbody>
-		</table>
+		</table> -->
+        <div id="cardContainer" class="card-container">
+            
+        </div>
 
     
             <footer class="section bg-footer">
